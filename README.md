@@ -1,93 +1,62 @@
-# Python learning project for car enthusiasts
+# 車好きのためのPython学習カリキュラム
 
+## 概要
 
+このカリキュラムは、車が大好きな方々のためのPython入門コースです。軽度の知的障害や自閉症の方にも分かりやすく、楽しく学べるように設計されています。3ヶ月間で基礎を学び、トレーニングコンペに参加できる知識を身につけることを目指します。
 
-## Getting started
+## 学習環境
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+- **OS**: Arch Linux
+- **開発ツール**: Jupyter, Anaconda, VSCode
+- **バージョン管理**: Git, GitHub, GitLab
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+## 学習スケジュール
 
-## Add your files
+- 平日：1日1時間
+- 休日：1日2時間
+- 期間：3ヶ月（90日間）
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+## カリキュラム概要
 
-```
-cd existing_repo
-git remote add origin https://gitlab.com/hmproject/python-learning-project-for-car-enthusiasts.git
-git branch -M main
-git push -uf origin main
-```
+### 1ヶ月目: Pythonの基礎と数学の復習
 
-## Integrate with your tools
+1. Pythonの紹介と環境設定
+2. 変数とデータ型
+3. 制御構造（条件分岐、ループ）
+4. 関数とモジュール
+5. 数学の基礎（小学4年生〜高校1年生レベル）
 
-- [ ] [Set up project integrations](https://gitlab.com/hmproject/python-learning-project-for-car-enthusiasts/-/settings/integrations)
+### 2ヶ月目: データ構造とアルゴリズム
 
-## Collaborate with your team
+1. リスト、辞書、セット
+2. ファイル操作とエラー処理
+3. オブジェクト指向プログラミング
+4. 基本的なアルゴリズムとデータ構造
+5. NumPy, Pandas, Matplotlibの基礎
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+### 3ヶ月目: 機械学習入門とコンペティション参加
 
-## Test and Deploy
+1. 機械学習の基礎（scikit-learn）
+2. Kaggleチュートリアルコンペへの参加
+3. EDA（探索的データ分析）の実践
+4. モデルの選択と評価
+5. 本格的なコンペティションへの参加と振り返り
 
-Use the built-in continuous integration in GitLab.
+## 特徴
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+- 車関連の例題や課題を多用
+- 視覚的な教材を活用
+- 各トピックの終わりに簡単な確認テスト
+- 進度に応じて柔軟に調整可能
 
-***
+## ライセンス
 
-# Editing this README
+このカリキュラムは[クリエイティブ・コモンズ 表示 - 非営利 - 継承 4.0 国際 ライセンス](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja)の下で提供されています。
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
+## 貢献
 
-## Suggestions for a good README
+プルリクエストは大歓迎です。大きな変更を加える場合は、まず問題を開いて議論してください。
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+## サポート
 
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+質問や支援が必要な場合は、Issuesセクションを使用してください。
